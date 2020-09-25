@@ -1,7 +1,7 @@
 zech32
 ==========
 
-Package zech32 provides a Go implementation of the bech32 format used by Zcash.  It's identical to the one specified in [BIP 173](https://github.com/bitcoin/bips/blob/master/bip-0173.mediawiki) except that the permissible length of a string is much longer.
+Package zech32 provides a Go implementation of the bech32 format used by Zcash.  It's identical to the one specified in [BIP 173](https://github.com/bitcoin/bips/blob/master/bip-0173.mediawiki) except that the permissible length of a string is much longer. The canonical reference for the Zcash format can be found at [ZIP 173](https://zips.z.cash/zip-0173).
 
 ## Examples
 
