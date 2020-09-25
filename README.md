@@ -1,22 +1,11 @@
-bech32
+zech32
 ==========
 
-[![Build Status](http://img.shields.io/travis/btcsuite/btcutil.svg)](https://travis-ci.org/btcsuite/btcutil)
-[![ISC License](http://img.shields.io/badge/license-ISC-blue.svg)](http://copyfree.org)
-[![GoDoc](https://godoc.org/github.com/btcsuite/btcutil/bech32?status.png)](http://godoc.org/github.com/btcsuite/btcutil/bech32)
-
-Package bech32 provides a Go implementation of the bech32 format specified in
-[BIP 173](https://github.com/bitcoin/bips/blob/master/bip-0173.mediawiki).
-
-Test vectors from BIP 173 are added to ensure compatibility with the BIP.
-
-## Installation and Updating
-
-```bash
-$ go get -u github.com/btcsuite/btcutil/bech32
-```
+Package zech32 provides a Go implementation of the bech32 format used by Zcash.  It's identical to the one specified in [BIP 173](https://github.com/bitcoin/bips/blob/master/bip-0173.mediawiki) except that the permissible length of a string is much longer.
 
 ## Examples
+
+The same examples from btcsuite's docs still apply.
 
 * [Bech32 decode Example](http://godoc.org/github.com/btcsuite/btcutil/bech32#example-Bech32Decode)
   Demonstrates how to decode a bech32 encoded string.
@@ -25,5 +14,4 @@ $ go get -u github.com/btcsuite/btcutil/bech32
 
 ## License
 
-Package bech32 is licensed under the [copyfree](http://copyfree.org) ISC
-License.
+Package zech32 is licensed under the [copyfree](http://copyfree.org) ISC License.
